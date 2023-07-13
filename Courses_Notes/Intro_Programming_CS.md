@@ -1,5 +1,7 @@
 [Introduction to Progamming & Computer Science](https://www.youtube.com/watch?v=zOjov-2OZ0E)
 
+---
+
 <details open>
 <summary> What is Programming? </summary>
 "Programming" Definitions:

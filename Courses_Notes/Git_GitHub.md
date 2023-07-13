@@ -1,5 +1,7 @@
 [Git and GitHub Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
 
+---
+
 What is Git?
 
 - Free and open source version control system

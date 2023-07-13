@@ -1,5 +1,7 @@
 [Intro to Object-Oriented Programming](https://www.youtube.com/watch?v=SiBw7os-_zI)
 
+---
+
 **In order to understand OOP, it's best to first understand what objects are. In order to understand what objects are, it's best to first understand what primitive data types are.**
 
 Primitive data types store single, simple values; examples include:
