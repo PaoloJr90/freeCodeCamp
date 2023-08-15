@@ -1,4 +1,5 @@
 [Big O Notation](https://www.youtube.com/watch?v=Mo4vesaut8g)
+[Big O Cheat Sheet](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/)
 
 ## Big O Notation
 
