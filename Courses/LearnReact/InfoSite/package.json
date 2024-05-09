@@ -1,0 +1,21 @@
+{
+  "name": "learnreact",
+  "version": "1.0.0",
+  "description": "[React Course - YouTube](https://www.youtube.com/watch?v=bMknfKXIFA8)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}
