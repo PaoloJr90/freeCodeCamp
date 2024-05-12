@@ -1,0 +1,106 @@
+/* html {
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.newNav {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em 1em;
+    background-color: #21222A;
+
+}
+
+.newNavLogo {
+    width: 60px;
+    margin-right: 0.5em;
+}
+
+.nav-title {
+    color: #61DAFB;
+}
+
+.nav-item {
+    color: #DEEBF8;
+    margin: auto;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.main-comp {
+    color: #FFFFFF;
+    background-color: #282D35;
+    padding: 0 2em 0;
+    height: 100vh;
+    /* background-image: url('./React-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; */
+}
+
+.main-title {
+    margin: 0;
+    padding: 1.5em 0 0;
+
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+    list-style: disc none;
+}
+
+.main-list>li {
+    padding: 15px;
+    color: #61DAFB;
+    font-size: 30px;
+}
+
+li span {
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+
+
+/* first project */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    font-weight: 900;
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+    color: white;
+}

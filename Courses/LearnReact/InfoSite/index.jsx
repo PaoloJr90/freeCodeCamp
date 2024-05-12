@@ -1,5 +1,10 @@
 import React from 'react';
+// JSX syntax is stored in react
 import ReactDOM from 'react-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import MainContent from './Components/MainContent';
+import App from './App';
 
 // ReactDOM.render(<h1>Hello, I am learning!</h1>, document.getElementById("root"));
 // ReactDOM.render(<ul><li>first</li><li>second</li></ul>, document.getElementById("root"));
@@ -99,23 +104,46 @@ find out what happens if we try to append JSX to our div#root using .append() in
 
 // ReactDOM.render(page, document.getElementById('root'));
 
+
 /* CHALLENGE
 build and render the HTML for the section project
 */
 
-const page = (
-    <div>
-        <img src='./React-icon.svg' width="40px" />
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>first release in 2013</li>
-            <li>originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>Maintained by facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-    </div>
-)
-console.log(page);
+// const page = (
+//     <div>
+//         <img src='./React-icon.svg' width="40px" />
+//         <h1>Fun facts about React</h1>
+//         <ul>
+//             <li>first release in 2013</li>
+//             <li>originally created by Jordan Walke</li>
+//             <li>Has well over 100K stars on GitHub</li>
+//             <li>Maintained by facebook</li>
+//             <li>Powers thousands of enterprise apps, including mobile apps</li>
+//         </ul>
+//     </div>
+// )
 
-ReactDOM.render(page, document.getElementById('root'));
+// console.log(page);
+// consoles JS object. React elements that describe what react should eventually add to the real DOM
+
+// ReactDOM.render(page, document.getElementById('root'));
+
+
+/* CUSTOM COMPONENTS
+*/
+/* CHALLENGE
+*/
+
+// function App() {
+//     return (
+//         <>
+//             <Header />
+//             <MainContent />
+//             <Footer />
+//         </>
+//     )
+// }
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
