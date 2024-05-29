@@ -1,12 +1,10 @@
 import React from 'react';
-// import Main from './Components/Main';
-// import Navbar from './Components/Navbar';
+import AboutInterests from './Components/Interests';
 
 export default function App() {
     return (
-        <>
-            <Navbar />
-            <Main />
-        </>
+        <main className='main-card'>
+            <AboutInterests />
+        </main>
     )
 }
