@@ -1,12 +1,11 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Navbar from './Components/Navbar'
 
-function App() {
+export default function App() {
 
-  return
-  <>
-  </>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
-
-export default App
